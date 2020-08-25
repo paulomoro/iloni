@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* max-width: 90%;
+    margin: auto; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+#header{
+    border-bottom: 1px solid rgb(221, 217, 217);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 20vh;
+}
+
+.topheader{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+}
+
+.topheader__contact{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    margin: 12px 0 12px 120px;
+}
+
+.topheader__contact a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.phone::before{
+    display: block;
+    content: url(./phone.svg);
+    position: absolute;
+    left: -20px;
+}
+
+.mail::before{
+    display: block;
+    content: url(./mail.svg);
+    position: absolute;
+    left: -20px;
+    top: 2px;
+}
+
+.topheader__smhandle{
+    display: grid;
+    grid-template-columns: repeat(4, 38px);
+    justify-items: center;
+    margin-left: 50px;
+}
+
+.topheader__smhandle li{
+    list-style-type: none;
+
+}
+.topheader__smhandle a{
+    margin: 12px 0;
+}
+
+.topheader__smhandle li:hover{
+    background-color: blue;
+    padding: 0 6px;
+
+}
+.facebook{
+    display: block;
+    content: url(./facebook.svg);
+}
+
+.twitter{
+    display: block;
+    content: url(./twitter.svg);
+}
+
+.linkedin{
+    display: block;
+    content: url(./linkedin\(1\).svg);
+}
+
+.instagram{
+    display: block;
+    content: url(./instagram.svg);
+}
+
+
+.bottomheader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottomheader_left img{
+    margin: 3px 0 2px 100px;
+}
+
+.bottomheader_right{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    margin: 35px 0 0 100px;
+    
+}
+
+.bottomheader_right a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.bottomheader_right a:hover{
+    color: black;  
+}
+
+.home{
+    display: block;
+    content: url(./icons8-home.svg);
+    margin: -10px 0px 0 20px;
+}
+

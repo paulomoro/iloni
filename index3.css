@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* max-width: 90%;
+    margin: auto; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+
+#fourth__section{
+    /* height: 80vh; */
+    background-color: rgb(36, 36, 36);
+    color: grey;
+}
+
+.item2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,280px));
+    padding: 100px 0 40px 100px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.item2 h2{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.firstbox h1{
+    color: rgb(180, 179, 179);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+
+.firstbox p{
+   padding: 10px 0 0 0;
+   font-size: 0.9rem;
+   font-weight: lighter;
+   line-height: 1.5rem;
+}
+
+.secondbox h3{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: lighter;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.secondbox__location h3::before{
+    display: block;
+    content: url(./navigation.svg);
+    position: absolute;
+    left: -5px;
+}
+
+.secondbox__phone h3::before{
+    display: block;
+    content: url(./phone2.svg);
+    position: absolute;
+    left: -5px;
+}
+
+.secondbox__email h3::before{
+    display: block;
+    content: url(./mail2.svg);
+    position: absolute;
+    left: -5px;
+    top: 2px;
+}
+
+.secondbox p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    padding: 5px 0 30px 30px;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.third__box{
+    display: block;
+    width: 200px;
+}
+
+.third__box li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed white;
+}
+
+.third__box li a{
+    color: grey;
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+.third__box li:hover{
+    color: white;
+}
+
+.third__box li a:hover{
+    color: white;
+}
+
+.feather-chevron-right2{
+    padding-top: 5px;
+    margin-left: -5px;
+}
+
+.feather-chevron-right2:hover{
+    stroke: white;
+}
+
+.fourthbox__icon{
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.fourthbox__icon li{
+    list-style-type: none;
+
+}
+
+.fourthbox__icon li svg:hover{
+    fill: white;
+    stroke: white;
+    cursor: pointer;
+}
+
+.fourthbox__icon li .feather-instagram:hover{
+    stroke: white;
+    fill: none;
+}
+
+.fourthbox__label input[type="text"]{
+    background-color: transparent;
+    border: 1px solid grey;
+    outline: none;
+    color: grey;
+    width: 180px;
+    height: 40px;
+    padding: 0 5px;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+}
+
+.fourthbox__label button{
+    background-color: red;
+    border: 1px solid grey;
+    outline: none;
+    color: grey;
+    width: 50px;
+    height: 40px;
+    padding: 12px 0 0 0 ;
+    margin-left: -5px;
+    position: relative;
+}
+
+.fourthbox__label button::after{
+    display: block;
+    content: url(./right.svg);
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+
+.arrow{
+    display: grid;
+    justify-content: center;
+   
+
+}
+
+.feather-triangle{
+    transform: rotate(180deg);
+    margin-top: -35px;
+}
+
+.fourthbox__label button:hover{
+    cursor: pointer;
+}
